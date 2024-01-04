@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.contain{
+    display: flex;
+    gap: 10%;
+    flex-wrap: wrap;
+}
+.mainbox{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    /* border: 2px solid green; */
+    margin-top: 5%;
+    border-radius: 2%;
+
+}
+.pic{
+    width: 25vw;
+    height: 30vh;
+    background-image: url("https://images.pexels.com/photos/162031/dubai-tower-arab-khalifa-162031.jpeg?auto=compress&cs=tinysrgb&w=600");
+    background-size: cover;
+    border-radius: 2%;
+}
+.pic:hover{
+    opacity: 0.5;
+}
+.commint{
+    width: 25vw;
+    display: flex;
+}
+.logo{
+    background-image: url("https://images.pexels.com/photos/11572953/pexels-photo-11572953.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load");
+    background-size: cover;
+    width: 2vw;
+    height: 5vh;
+    border-radius: 50%;
+}
+body{
+    background-color: rgba(140, 162, 206, 0.356);
+}
